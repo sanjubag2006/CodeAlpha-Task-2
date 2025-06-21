@@ -1,0 +1,103 @@
+@media (min-width: 640px) {
+
+    /* Hero-Section */
+    .hero-buttons {
+        flex-direction: row;
+    }
+
+    /* Resume Section */
+    .resume-buttons {
+        flex-direction: row;
+    }
+
+    /* Contact Section */
+    .contact-buttons {
+        flex-direction: row;
+    }
+
+    /* Responsive adjustments */
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .projects-subtitle {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+    /* Navigation */
+    .nav-desktop {
+        display: flex;
+    }
+
+    .mobile-menu-btn {
+        display: none;
+    }
+
+    /* Hero-Section */
+    .hero-title {
+        font-size: 6rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.875rem;
+    }
+
+    /* Sections */
+    .section-title {
+        font-size: 4rem;
+    }
+
+    /* About-Sections */
+    .about-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Skills-Section */
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Projects Section */
+    .projects-grid-major {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects-grid-minor {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Achievements Section */
+    .achievements-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Contact Section */
+    .contact-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Footer */
+    .footer-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+
+    /* Skills-Section */
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Contact Section */
+    .contact-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

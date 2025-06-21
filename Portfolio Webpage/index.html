@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanju Bag - Web Developer Portfolio</title>
+    <meta name="description"
+        content="Personal portfolio of Sanju Bag - Web Developer and Computer Science Student showcasing projects and skills" />
+    <meta name="author" content="Sanju Bag" />
+
+    <meta property="og:title" content="Sanju Bag - Web Developer Portfolio" />
+    <meta property="og:description" content="Personal portfolio showcasing web development projects and skills" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="portfolio-container">
+        <!-- Navigation -->
+        <nav class="nav-fixed">
+            <div class="nav-container">
+                <div class="nav-content">
+                    <div class="nav-logo">
+                        Sanju Bag
+                    </div>
+
+                    <!-- Desktop Navigation -->
+                    <div class="nav-desktop">
+                        <button class="nav-link" data-section="home">Home</button>
+                        <button class="nav-link" data-section="about">About</button>
+                        <button class="nav-link" data-section="skills">Skills</button>
+                        <button class="nav-link" data-section="projects">Projects</button>
+                        <button class="nav-link" data-section="achievements">Achievements</button>
+                        <button class="nav-link" data-section="timeline">Timeline</button>
+                        <button class="nav-link" data-section="resume">Resume</button>
+                        <button class="nav-link" data-section="contact">Contact</button>
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <i class="fas fa-bars" id="menuIcon"></i>
+                    </button>
+                </div>
+
+                <!-- Mobile Navigation -->
+                <div class="nav-mobile" id="mobileNav">
+                    <button class="nav-mobile-link" data-section="home">Home</button>
+                    <button class="nav-mobile-link" data-section="about">About</button>
+                    <button class="nav-mobile-link" data-section="skills">Skills</button>
+                    <button class="nav-mobile-link" data-section="projects">Projects</button>
+                    <button class="nav-mobile-link" data-section="achievements">Achievements</button>
+                    <button class="nav-mobile-link" data-section="timeline">Timeline</button>
+                    <button class="nav-mobile-link" data-section="resume">Resume</button>
+                    <button class="nav-mobile-link" data-section="contact">Contact</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-profile">
+                    <img src="/Images/Myphoto.jpg"
+                        alt="Profile" class="profile-image" />
+                </div>
+                <h1 class="hero-title">
+                    Sanju Bag
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typed-text" id="typedText"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    1st Year 2nd Semester Computer Science Student passionate about creating innovative digital
+                    solutions
+                    with modern web technologies and competitive programming
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" data-section="about">
+                        Explore My Work
+                        <i class="fas fa-arrow-down"></i>
+                    </button>
+                    <button class="btn-outline">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </button>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sanju-bag-312059346?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-cards">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-icon-title">
+                                    <i class="fas fa-user card-icon cyan"></i>
+                                    <h3 class="card-title">My Journey</h3>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-text">
+                                    Currently pursuing my Computer Science degree in 1st Year 2nd Semester, I'm
+                                    passionate about
+                                    creating innovative web solutions and solving complex problems through code. My
+                                    journey started
+                                    with curiosity and has evolved into a dedicated pursuit of excellence in programming
+                                    and web development.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-icon-title">
+                                    <i class="fas fa-code card-icon purple"></i>
+                                    <h3 class="card-title">Technical Focus</h3>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-text">
+                                    I specialize in full-stack web development with strong foundations in C/C++ and
+                                    Python.
+                                    My expertise includes database management with MySQL, version control with Git, and
+                                    creating
+                                    responsive, user-friendly web applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-icon-title">
+                                    <i class="fas fa-book card-icon blue"></i>
+                                    <h3 class="card-title">Education & Growth</h3>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-text">
+                                    I believe in continuous learning and hands-on experience. Through academic projects,
+                                    personal initiatives, and competitive programming, I've developed strong
+                                    problem-solving
+                                    skills and a deep understanding of computer science fundamentals.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=600&fit=crop"
+                            alt="Developer workspace" class="workspace-image" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Skills & Expertise</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="skills-grid" id="skillsGrid">
+                    <!-- Skills will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container-wide">
+                <div class="section-header">
+                    <h2 class="section-title">My Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <!-- Major Projects -->
+                <div class="projects-major">
+                    <h3 class="projects-subtitle">Major Projects</h3>
+                    <div class="projects-grid-major" id="majorProjectsGrid">
+                        <!-- Major projects will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Minor Projects -->
+                <div class="projects-minor">
+                    <h3 class="projects-subtitle">Practice Projects</h3>
+                    <div class="projects-grid-minor" id="minorProjectsGrid">
+                        <!-- Minor projects will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Achievements</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="achievements-grid" id="achievementsGrid">
+                    <!-- Achievements will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section id="timeline" class="section">
+            <div class="container-medium">
+                <div class="section-header">
+                    <h2 class="section-title">My Journey</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="timeline" id="timelineContainer">
+                    <!-- Timeline items will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="section section-alt">
+            <div class="container-medium">
+                <div class="section-header">
+                    <h2 class="section-title">Resume</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="card resume-card">
+                    <div class="card-content resume-content">
+                        <div class="resume-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3 class="resume-title">Download My Resume</h3>
+                        <p class="resume-description">
+                            Get a comprehensive overview of my education, technical skills, projects, and achievements.
+                            My resume showcases my journey as a developing software engineer and computer science
+                            student.
+                        </p>
+                        <div class="resume-buttons">
+                            <button class="btn-primary">
+                                <i class="fas fa-download"></i>
+                                Download PDF
+                            </button>
+                            <button class="btn-outline">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Online
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="contact-grid" id="contactGrid">
+                    <!-- Contact cards will be populated by JavaScript -->
+                </div>
+                <div class="contact-footer">
+                    <p class="contact-description">
+                        I'm always excited to discuss new opportunities, collaborate on interesting projects, or just
+                        have
+                        a conversation about technology and programming. Feel free to reach out!
+                    </p>
+                    <div class="contact-buttons">
+                        <button class="btn-primary">
+                            <i class="fas fa-envelope"></i>
+                            Send Message
+                        </button>
+                        <button class="btn-outline">
+                            <i class="fab fa-github"></i>
+                            View GitHub
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <h3 class="footer-title">
+                            Sanju Bag
+                        </h3>
+                        <p class="footer-subtitle">Computer Science Student & Web Developer</p>
+                        <div class="footer-social">
+                            <a href="#" class="footer-social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sanju-bag-312059346?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " class="footer-social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="bagsanju2006@gmail.com" class="footer-social-link">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <h4 class="footer-heading">Quick Links</h4>
+                        <div class="footer-nav">
+                            <button class="footer-link" data-section="about">About</button>
+                            <button class="footer-link" data-section="skills">Skills</button>
+                            <button class="footer-link" data-section="projects">Projects</button>
+                            <button class="footer-link" data-section="resume">Resume</button>
+                            <button class="footer-link" data-section="contact">Contact</button>
+                        </div>
+                    </div>
+                    <div class="footer-updates">
+                        <h4 class="footer-heading">Latest Updates</h4>
+                        <p class="footer-text">
+                            Currently working on new projects and expanding my skill set in web development and
+                            competitive programming.
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="footer-copyright">
+                        © 2024 Sanju Bag. All rights reserved. Built with passion and dedication to coding excellence.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
